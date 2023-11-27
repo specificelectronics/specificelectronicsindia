@@ -19,6 +19,7 @@ body {
   .carousel-caption {
     bottom: 3rem;
     z-index: 10;
+    
   }
   
   /* Declare heights because of positioning of img element */
@@ -484,6 +485,7 @@ body {
   img,
   svg {
     vertical-align: middle;
+    min-zoom: initial;
   }
   
   table {
@@ -6251,8 +6253,11 @@ body {
     left: 15%;
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
-    color: #fff;
+    color: white;
     text-align: center;
+    text-shadow: #000;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
   
   .carousel-dark .carousel-control-prev-icon,
