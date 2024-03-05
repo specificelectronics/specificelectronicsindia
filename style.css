@@ -5,6 +5,7 @@
 body {
   
     color: #5a5a5a;
+
   }
   
   
@@ -47,13 +48,15 @@ body {
   ------------------------- */
   
   .featurette-divider {
-    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+    margin: 2rem ; /* Space out the Bootstrap <hr> more */
+    
   }
   
   /* Thin out the marketing headings */
   /* rtl:begin:remove */
   .featurette-heading {
     letter-spacing: -.05rem;
+    
   }
   
   /* rtl:end:remove */
