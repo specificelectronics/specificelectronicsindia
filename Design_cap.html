@@ -25,6 +25,26 @@
             /* Adjust as needed */
 
         }
+        .innovation{
+           margin-left: 5px;
+        }
+
+        /* Animation */
+        @keyframes slideIn {
+            from {
+                transform: translateX(-100%);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        .welcome-text {
+            animation: slideIn 1s forwards;
+        }
     </style>
 </head>
 <header>
@@ -42,7 +62,12 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-sm-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="index.html"
+                  >Home</a
+                >
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -72,18 +97,19 @@
     </nav>
 
     <body>
-        <div style="background-color: rgb(16, 16, 194); align-content: center;">
+        <div style="background-color: rgb(42, 42, 129); align-content: center;">
 
-            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-cpu"
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" color="white" fill="currentColor" class="bi bi-cpu"
                 viewBox="0 0 16 16">
                 <path
                     d="M5 0a.5.5 0 0 1 .5.5V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2A2.5 2.5 0 0 1 14 4.5h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14a2.5 2.5 0 0 1-2.5 2.5v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14A2.5 2.5 0 0 1 2 11.5H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2A2.5 2.5 0 0 1 4.5 2V.5A.5.5 0 0 1 5 0m-.5 3A1.5 1.5 0 0 0 3 4.5v7A1.5 1.5 0 0 0 4.5 13h7a1.5 1.5 0 0 0 1.5-1.5v-7A1.5 1.5 0 0 0 11.5 3zM5 6.5A1.5 1.5 0 0 1 6.5 5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 9.5zM6.5 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5z" />
             </svg>
 
-            <div style="display:inline-block; align-content: center;">
-                <h3>Welcome to Specific Electronics</h3>
+            <div style="display:inline-block";>
+                <h3 class="welcome-text" style="color:beige ;"><strong>Welcome to Specific Electronics</strong></h3>
             </div>
         </div>
+        <div class="innovation">
         <p>
             where innovation meets precision in PCB design. Our dedicated team of experts is committed to delivering
             cutting-edge solutions for your electronic projects. From concept to prototype, we specialize in
@@ -91,7 +117,7 @@
         </p>
         <h3>High-Quality Design:</h3>
         <p>
-            At [Your Company Name], we prioritize the highest standards of PCB design. Our experienced engineers
+            At <strong> Specific_Electronics</strong>, we prioritize the highest standards of PCB design. Our experienced engineers
             leverage industry best practices, ensuring your PCB layouts meet stringent quality criteria. With
             meticulous attention to detail, we focus on optimizing signal integrity, reducing electromagnetic
             interference, and enhancing overall reliability.
@@ -120,10 +146,10 @@
             This not only improves the overall production process but also helps in cost reduction.
         </p>
         <h3>Compliance and Certification:</h3>
-        <p>At [Your Company Name], we believe in a collaborative approach. Our team works closely with clients
+        <p>At <strong> Specific_Electronics</strong>, we believe in a collaborative approach. Our team works closely with clients
             throughout the design process, fostering open communication and incorporating feedback at every stage. We
             consider your input valuable in achieving a design that aligns perfectly with your vision.
         </p>
-
+        </div>
         </div>
     </body>
